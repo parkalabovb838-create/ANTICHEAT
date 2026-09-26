@@ -1,0 +1,16 @@
+ name: ANTICHEAT
+version: 999.999.999
+main: com.good.anticheat.AntiCheatPlugin
+api-version: '1.21'
+author: good
+description: Exclusive AI AntiCheat
+commands:
+  ac:
+    description: AntiCheat admin
+    usage: /ac reload|webhook|debug|info|start|stop
+    permission: anticheat.admin
+permissions:
+  anticheat.admin:
+    default: op
+  anticheat.alerts:
+    default: false
